@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bin/www" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v18.20.6/bin/node" path-to-js-file="bin/www" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="DEBUG" value="ivb-gr2-expres-mongo:*" />
+    </envs>
+    <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
+      <browser url="http://localhost:3000/" />
+    </EXTENSION>
+    <method v="2" />
+  </configuration>
+</component>
