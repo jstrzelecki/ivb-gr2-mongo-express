@@ -1,0 +1,29 @@
+### GET request to example server
+GET http://localhost:5000
+Content-Type: application/json
+
+###
+### POST request to example server
+POST http://localhost:5000/tasks
+Content-Type: application/json
+
+{
+  "title": "tytuł 1",
+  "description": "coś tam coś"
+}
+###
+### POST request to example server
+POST http://localhost:5000/tasks
+Content-Type: application/json
+
+{
+  "title": "tytuł 2",
+  "description": "nie ma tego złego"
+}
+###
+
+### GET request to example server
+GET http://localhost:5000/tasks
+Content-Type: application/json
+
+###

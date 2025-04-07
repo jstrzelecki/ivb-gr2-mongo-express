@@ -3,6 +3,7 @@ import cors from "cors";
 import path from "path";
 import dotenv from "dotenv";
 import connectDB from "./database";
+import taskRoutes from "./routes/taskRoutes";
 
 (async  () => {
     try{
@@ -27,6 +28,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 console.log(__dirname);
+app.use("/tasks", taskRoutes);
+
 
 app.get("/", (req: Request, res: Response) => {
     res.json({message:"API EXPRESS TS"})
